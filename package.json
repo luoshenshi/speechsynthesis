@@ -1,6 +1,6 @@
 {
   "name": "@luoshenshi/speechsynthesis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this package uses python synthesis in node.js",
   "main": "index.js",
   "publishConfig": {
