@@ -5,7 +5,9 @@ class SpeechSynthesis {
 
   listen() {
     return new Promise((resolve, reject) => {
-      const pythonProcess = spawn("python", ["./synthesis/main.py"]);
+      const pythonProcess = spawn("python", [
+        __dirname.replace("dist", "synthesis\\") + "main.py",
+      ]);
 
       let output = "";
       let error = "";

@@ -22,3 +22,7 @@ speechSynthesis.listen().then((text) => {
   console.log(text);
 });
 ```
+
+### Changelogs:
+
+**1.0.2:** fixed bugs (bugs related to path)
