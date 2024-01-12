@@ -1,0 +1,19 @@
+{
+  "name": "speechsynthesis",
+  "version": "1.0.0",
+  "description": "this package uses python synthesis in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "speech",
+    "synthesis",
+    "speech-to-text"
+  ],
+  "author": "luoshenshi",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
